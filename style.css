@@ -60,6 +60,12 @@ li a{
 
 .name-content {
     padding-left: 70px; 
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 .name h1 {
@@ -70,6 +76,8 @@ li a{
 .below-text {
     margin-top: 10px;   
     font-size: 20px;
+    opacity: 0.9;
+    line-height: 1.6;
 }
 .rightIcon {
     position: fixed;
