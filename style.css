@@ -89,3 +89,26 @@ li a{
     height: 75px;
     width: 125px;
 }
+.information {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;     
+    margin-top: 60px;   
+}
+table th {
+    text-align: center;
+    font-size: 20px;
+}
+
+table img {
+    display: block;
+    margin: 0 auto;
+}
+.MyImage {
+    width: 150px;
+    height: 200px;
+}
+.Rank {
+    width: 75px;
+    height: 30px;
+}
