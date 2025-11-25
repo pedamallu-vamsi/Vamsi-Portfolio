@@ -21,7 +21,7 @@ marquee {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
-    padding-top: 0;
+    padding-top: 0px;
     background: rgba(255, 255, 255, 0.09);
     height: 30px;
     text-align: right;
@@ -139,11 +139,35 @@ table img {
 }
 .Olink {
     text-decoration: underline;
-    color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;    
+    font-size: 17px;
 }
 .Olink:hover {
     color: yellow;
-    font-size: 17px;
+    font-size: 18px;
 }
-
-
+.MiniHeading {
+    margin-left: 50px;
+}
+.TechSkillImg{
+    margin-left: 5px;
+    height: 500px;
+    width: 600px;
+}
+.TSP {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;      
+}
+.TSP-Content {
+    animation: fadeIn 1.2s ease-in-out;
+    margin-left: 30px;
+    width: 40%;  
+}
+.TSP-Img{
+    animation: fadeIn 1.2s ease-in-out;
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
+}
