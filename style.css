@@ -171,33 +171,27 @@ table img {
     margin-top: 50px;
     width: 50%;
 }
-.Sports & Activities Content {
-    animation: fadeIn 1.2s ease-in-out;
-    margin-left: 30px;  
-}
-.section-flex {
+.image-column {
     display: flex;
-    align-items: flex-start; 
-    gap: 20px; 
-    margin-left: 55px; 
-    margin-bottom: 40px; 
+    flex-direction: column;
+    gap: 25px;
+    margin-right: 40px;
+}
+.side-images {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.section-flex .text {
-    flex: 66%; 
+.side-images img {
+    width: auto;
+    height: 425px;  
 }
 
-.section-flex .image {
-    flex: 34%; 
-}
-
-.section-flex img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; 
-    height: 500px;
-    margin-left: 80px;
-}
 b {
     font-weight: 750;
 }
