@@ -178,3 +178,50 @@ table img {
 b {
     font-weight: 750;
 }
+.icon-text {
+display: flex;
+align-items: center;
+gap: 10px; 
+margin-right: 55px;  
+}   
+.image {
+width: 28px;
+height: 28px;
+}
+.CM-Container {
+animation: fadeIn 1.2s ease-in-out;
+display: flex;
+justify-content: space-around;
+margin-top: 100px;
+padding: 20px;
+}
+
+.submit-btn {
+padding: 8px 18px;
+border-radius: 6px;
+border: none;
+background-color: #1E90FF;
+color: white;
+cursor: pointer;
+font-size: 14px;
+}
+
+.submit-btn:hover {
+background-color: #0B65C2;
+}
+
+.form-input, .form-textarea {
+width: 230px;
+padding: 6px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+.CM-Links a {
+    text-decoration: underline;
+    color: lightgoldenrodyellow;    
+    font-size: 17px;
+}
+.CM-Links a:hover {
+    color: yellow;
+    font-size: 18px;
+}
