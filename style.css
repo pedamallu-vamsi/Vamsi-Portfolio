@@ -171,3 +171,10 @@ table img {
     margin-top: 50px;
     width: 50%;
 }
+.Sports & Activities Content {
+    animation: fadeIn 1.2s ease-in-out;
+    margin-left: 30px;  
+}
+b {
+    font-weight: 750;
+}
