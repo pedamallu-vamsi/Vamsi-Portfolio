@@ -35,7 +35,7 @@ It introduces who I am, showcases my skills and interests, and provides a simple
 
 ## 🔹 **Purpose**
 This project represents:  
-- *My **first step** into the GitHub community  
+- My **first step** into the GitHub community  
 - My first complete personal website  
 - A way to build my online identity  
 - Practice with HTML, CSS, and JavaScript  
