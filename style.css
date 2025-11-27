@@ -242,3 +242,6 @@ border: 1px solid #ccc;
     color: yellow;
     font-size: 18px;
 }
+input, textarea {
+    color: black;
+}
