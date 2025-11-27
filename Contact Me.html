@@ -2,11 +2,7 @@
     <head>
         <title>Contact Me | Vamsi Pedamallu</title>
         <link rel="stylesheet" href="style.css">
-        <script language="javascript">
-            function al(){
-                alert("Thanks for your feedback! Your message has been received.")
-            }
-        </script>
+        <script src="script.js"></script>
     </head>
     <body>
         <nav class="navbar" style="margin-top: 25px;">
@@ -32,7 +28,7 @@
 
                         <tr>
                             <td><label>Email:</label></td>
-                            <td><input type="text" class="form-input" placeholder="Enter your Email Id"></td>
+                            <td><input type="text" class="form-input" placeholder="Enter your Email Id" id="email"></td>
                         </tr>
 
                         <tr>
@@ -42,7 +38,7 @@
 
                         <tr>
                             <td></td>
-                            <td><button type="submit" class="submit-btn" onclick="al()">Submit</button></td>
+                            <td><button type="submit" class="submit-btn" onclick="validate()">Submit</button></td>
                         </tr>
                     </table>
                 </form>
