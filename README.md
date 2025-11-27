@@ -50,6 +50,6 @@ This project represents:
 
 ---
 
-## 🙏 **Thank You**
+##   **Thank You**
 Thank you for visiting!  
 Feedback and suggestions are always welcome.
